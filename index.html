@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<script src="https://degorov.ru/1base/wp-content/themes/Goodini/assets/js/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/base.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/blocks.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/modules.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://degorov.ru/1base/wp-content/themes/Goodini/assets/css/anim.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.min.css">
+	<title>Главная</title>
+</head>
+
+<body>
+	<div class="page-frame">
+		<header id="header" class="header">
+    <div class="container-fluid">
+        <div class="header__inner">
+            <div class="header__left">
+                <a class="header__logo" href="">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="header__right">
+                <div class="header__text">
+                    <p>Лицензия <br> №ХХХХХХХ</p>
+                    <p>г. Воронеж, Московский <br> проспект, 13/2</p>
+                    <p>с 9:00 до 22:00</p>
+                </div>
+                <div class="header__wrap">
+                    <div class="header__socials">
+                        <a class="header__social" href="">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.79716 10.1324C8.18821 10.6791 7.8154 11.4411 7.75736 12.2574L7.59236 14.5782C7.55163 15.151 8.0337 15.5954 8.44118 15.1907C9.7251 13.9637 11.7042 13.8342 13.137 14.8835L15.2588 16.4374C16.1022 16.9074 16.6964 16.6599 16.9239 15.6615L19.9422 1.51845C19.9423 1.51808 19.9424 1.51773 19.9427 1.51746C19.943 1.51719 19.9432 1.51683 19.9433 1.51645C20.2104 0.270191 19.4922 -0.217119 18.6706 0.0886734L0.928504 6.88134C-0.282359 7.35135 -0.264025 8.02637 0.722666 8.33221L0.875453 8.37973C3.65798 9.24521 6.67962 8.85392 9.1499 7.3082L15.7947 3.15041C16.2905 2.82207 16.7414 3.00374 16.3705 3.33208L8.79716 10.1324Z" fill="#D2B99B"/>
+                            </svg>
+                        </a>
+                        <a class="header__social" href="">
+                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.9954 0H6.99708C3.14869 0 0 3.14869 0 6.99708V9.99584C0 11.5494 0.521698 13.0285 1.42685 14.2233C2.66175 15.8534 3.99833 17.6218 3.99833 19.6668C3.99833 19.9667 4.37318 20.1166 4.57309 19.8917L4.98037 19.4844C6.57566 17.8891 8.73934 16.9929 10.9954 16.9929C14.8438 16.9929 17.9925 13.8442 17.9925 9.99584V6.99708C17.9925 3.14869 14.8438 0 10.9954 0ZM13.6193 13.1195L12.5948 14.1191C11.5202 15.1687 8.74636 13.9692 6.29738 11.4702C3.8484 8.97126 2.77384 6.17243 3.79842 5.12287L4.798 4.12328C5.17284 3.74844 5.79758 3.77343 6.22241 4.14827L7.6718 5.64765C8.19658 6.17243 7.97168 7.07205 7.29696 7.27197C6.82216 7.42191 6.49729 7.94669 6.64723 8.42149C6.89713 9.52103 8.29654 10.9205 9.34611 11.1953C9.82091 11.2953 10.3457 11.0454 10.5206 10.5706C10.7455 9.89588 11.6451 9.69596 12.1449 10.2207L13.5943 11.7201C13.9942 12.07 13.9942 12.6947 13.6193 13.1195ZM9.89588 4.74802C9.79592 4.74802 9.69596 4.74802 9.596 4.77301C9.42107 4.798 9.24615 4.64806 9.22116 4.47314C9.19617 4.29821 9.34611 4.12328 9.52103 4.09829C9.64598 4.0733 9.77093 4.0733 9.89588 4.0733C11.7201 4.0733 13.2195 5.57268 13.2195 7.39692C13.2195 7.52187 13.2195 7.64681 13.1945 7.77176C13.1695 7.94669 12.9946 8.09663 12.8197 8.07164C12.7449 8.06096 12.6747 8.02291 12.6208 7.96918C12.4788 7.82766 12.5448 7.59741 12.5448 7.39692C12.5698 5.94752 11.3703 4.74802 9.89588 4.74802ZM11.895 7.42191C11.895 7.59684 11.7451 7.74677 11.5702 7.74677C11.3953 7.74677 11.2453 7.59684 11.2453 7.42191C11.2453 6.69721 10.6456 6.09746 9.92087 6.09746C9.74594 6.09746 9.596 5.94752 9.596 5.77259C9.596 5.59767 9.74594 5.44773 9.92087 5.44773C10.9954 5.42274 11.895 6.32237 11.895 7.42191ZM14.444 8.49646C14.394 8.67139 14.2191 8.79634 14.0192 8.74636C13.8442 8.69638 13.7443 8.52145 13.7943 8.34652C13.8692 8.04665 13.8942 7.74677 13.8942 7.42191C13.8942 5.22282 12.095 3.42357 9.89588 3.42357C9.79592 3.42357 9.69596 3.42357 9.596 3.42357C9.42107 3.42357 9.24615 3.29863 9.24615 3.1237C9.24615 2.94877 9.3711 2.77384 9.54602 2.77384C9.67097 2.77384 9.79592 2.74885 9.89588 2.74885C12.4698 2.74885 14.5689 4.84798 14.5689 7.42191C14.5689 7.77176 14.519 8.14661 14.444 8.49646Z" fill="#D2B99B"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__group">
+                        <a class="header__phone" href="tel:+70000000000">+7(000)000-00-00</a>
+                        <button class="header__btn btn" data-fancybox data-src="#popup-call">
+                            <span>Заказать звонок</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+		<main class="content-wrap">
+			<section class="main-section">
+				<div class="container-fluid">
+					<div class="main-section__inner">
+						<div class="main-section__left">
+							<div class="main-section__text">
+								Помогаем вернуться к полноценной жизни
+								<i>
+									<img src="img/circle.svg" alt="">
+								</i>
+							</div>
+							<h1>Медицинская клиника</h1>
+							<div class="main-section__subtitle">Психология | Психотерапия | Психиатрия</div>
+							<div class="main-section__group">
+								<button class="main-section__btn btn btn-beige" data-fancybox data-src="#popup-call">
+									<span>Записаться</span>
+								</button>
+								<div class="main-section__info">
+									Всегда есть возможность <br> срочной записи к специалисту
+								</div>
+							</div>
+						</div>
+						<div class="main-section__right">
+							<div class="main-section__group2">
+								<div class="main-section__text2">
+									<p>“У меня невыносимое состояние, я будто схожу с ума”,</p>
+									<p>- часто говорят наши клиенты при обращении</p>
+								</div>
+								<div class="main-section__img">
+									<img loading="lazy" src="img/main-img.webp" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="info">
+				<div class="container-fluid">
+					<div class="info__inner">
+						<div class="info__items">
+							<div class="info__item">
+								<div class="info__item-text">
+									<p><span>100% гарантия</span> конфиденциальности</p>
+								</div>
+								<div class="info__item-img">
+									<img loading="lazy" src="img/info-img.webp" alt="">
+								</div>
+							</div>
+							<div class="info__item">
+								<div class="info__item-text">
+									<p>Слаженная работа <span>3-х специалистов:</span> психотерапевта, психолога и психиатра</p>
+								</div>
+								<div class="info__item-img">
+									<img loading="lazy" src="img/info-img2.webp" alt="">
+								</div>
+							</div>
+							<div class="info__item">
+								<div class="info__item-text">
+									<p>Только <span>научно обоснованные</span> методики работы</p>
+								</div>
+								<div class="info__item-img">
+									<img loading="lazy" src="img/info-img3.webp" alt="">
+								</div>
+							</div>
+							<div class="info__item">
+								<div class="info__item-text">
+									<p><span>Интегративный подход</span> - сочетание психо- и фармакотерапии</p>
+								</div>
+								<div class="info__item-img">
+									<img loading="lazy" src="img/info-img4.webp" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="container-fluid">
+					<div class="advantages__inner">
+						<div class="advantages__wrap">
+							<div class="advantages__left">
+								<h2>У нас уютно и спокойно</h2>
+								<div class="advantages__text">
+									<p>Создали пространство, в котором каждый чувствует себя спокойно и комфортно. Нет ощущения стационара
+										или больницы. Чувство безопасности помогает получить более качественный эффект от терапии.
+										Благоприятная атмосфера располагает к доверительному диалогу с психотерапевтом.</p>
+								</div>
+							</div>
+							<div class="advantages__right">
+								<div class="advantages__slider">
+									<div class="swiper mySwiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<img loading="lazy" src="img/advantages-img.webp" alt="">
+											</div>
+											<div class="swiper-slide">
+												<img loading="lazy" src="img/advantages-img.webp" alt="">
+											</div>
+											<div class="swiper-slide">
+												<img loading="lazy" src="img/advantages-img.webp" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="advantages__slider-nav">
+										<div class="swiper-button-prev">
+											<svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M43 9H1L8.875 1" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M43 9H1L8.875 17" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</div>
+										<div class="swiper-button-next">
+											<svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 9L43 9L35.125 17" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M1 9L43 9L35.125 1" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__items">
+							<div class="advantages__item">
+								<p>Кабинеты расположены так, чтобы вы не контактировали с другими нашими клиентами.</p>
+							</div>
+							<div class="advantages__item">
+								<p>Мягкая удобная мебель и располагающая к терапии обстановка.</p>
+							</div>
+							<div class="advantages__item">
+								<p>Парковка для авто - во дворе дома, за шлагбаумом. Уединенное место.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="requests">
+				<div class="container-fluid">
+					<div class="requests__inner">
+						<h2><span class="text_color">ТОП-9 запроcов</span> <br> при обращении к нам</h2>
+						<div class="requests__items">
+							<div class="requests__item">
+								<p>Депрессия, отсутствие энергии и сил</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg.svg" alt="">
+								</div>
+							</div>
+							<div class="requests__item">
+								<p>Тревожность, стресс, беспокойство</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg2.svg" alt="">
+								</div>
+							</div>
+							<div class="requests__item">
+								<p>Проблемы с <br> самооценкой</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg3.svg" alt="">
+								</div>
+							</div>
+							<div class="requests__item">
+								<p>Панические <br> атаки</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg4.svg" alt="">
+								</div>
+							</div>
+							<div class="requests__item">
+								<p>Страхи и <br> фобии</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg5.svg" alt="">
+								</div>
+							</div>
+							<div class="requests__item">
+								<p>Нарушение <br> сна, головные <br> боли</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg6.svg" alt="">
+								</div>
+							</div>
+							<div class="empty"></div>
+							<div class="requests__item">
+								<p>Ругаю и <br> критикую себя</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg7.svg" alt="">
+								</div>
+							</div>
+							<div class="requests__item">
+								<p>Проблемы в отношениях (абьюз, буллинг)</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg8.svg" alt="">
+								</div>
+							</div>
+							<div class="empty"></div>
+							<div class="requests__item">
+								<p>Эмоциональное выгорание</p>
+								<div class="requests__item-img">
+									<img src="img/requests-item__bg9.svg" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="requests__group">
+							<button class="requests__btn btn btn-beige" data-fancybox data-src="#popup-call">
+								<span>Записаться</span>
+							</button>
+							<div class="requests__info">Запишем вас к психотерапевту, который поможет в решении вопроса</div>
+						</div>
+					</div>
+				</div>
+				<div class="requests__img">
+					<img src="img/requests-img.webp" alt="">
+				</div>
+			</section>
+			<section class="info2">
+				<div class="container-fluid">
+					<div class="info2__inner">
+						<div class="info2__items">
+							<div class="info2__group">
+								<div class="info2__item">
+									<h2>Психотерапия лечит, а не проcто дает выговориться</h2>
+									<div class="info2__subtitle">Работаем более чем со 100 заболеваниями и расстройствами поведения</div>
+								</div>
+								<div class="info2__item">
+									<div class="info2__item-text">
+										<p><strong>Неврозы, расстройства невротического спектра</strong></p>
+										<p>Состояние тревоги, обсессивно-компульсивное расстройство, неврастения.</p>
+									</div>
+									<div class="info2__item-img">
+										<img loading="lazy" src="img/info2-img3.webp" alt="">
+									</div>
+								</div>
+								<div class="info2__item">
+									<div class="info2__item-text">
+										<p><strong>Терапия для детей</strong></p>
+										<p>Трудности в общении, социофобия, синдром дефицита внимания, эпилепсия, депрессия, задержка
+											развития, аутизм.</p>
+									</div>
+									<div class="info2__item-img">
+										<img loading="lazy" src="img/info2-img4.webp" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="info2__group2">
+								<div class="info2__subgroup">
+									<div class="info2__item">
+										<div class="info2__item-text">
+											<p><strong>Психосоматика</strong></p>
+											<p>Гипертония, ишемическая болезнь сердца, нарушение ритма сердца, болезни ЖКТ, эндокринные
+												заболевания, ревматические заболевания, головные боли.</p>
+										</div>
+										<div class="info2__item-img">
+											<img loading="lazy" src="img/info2-img.webp" alt="">
+										</div>
+									</div>
+									<div class="info2__item">
+										<div class="info2__item-text">
+											<p><strong>Нарушения пищевого поведения</strong></p>
+											<p>Булимия, анорексия, постоянное чувство голода.</p>
+										</div>
+										<div class="info2__item-img">
+											<img loading="lazy" src="img/info2-img5.webp" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="info2__subgroup">
+									<div class="info2__item">
+										<div class="info2__item-text">
+											<p><strong>Зависимости</strong></p>
+											<p>Курение, алкоголь, наркотики, игромания, клептомания.</p>
+										</div>
+										<div class="info2__item-img">
+											<img loading="lazy" src="img/info2-img2.webp" alt="">
+										</div>
+									</div>
+									<div class="info2__item">
+										<div class="info2__item-text">
+											<p><strong>Расстройства психотического спектра</strong></p>
+											<p>Шизофрения, психозы, девиантное поведение и др.</p>
+										</div>
+										<div class="info2__item-img">
+											<img loading="lazy" src="img/info2-img6.webp" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="circle">
+					<img src="img/circle2.svg" alt="">
+				</div>
+			</section>
+			<section class="services">
+				<div class="container-fluid">
+					<div class="services__inner">
+						<h2>Наши услуги</h2>
+						<div class="services__items">
+							<div class="services__item">
+								<div class="services__item-title">Прием врача психиатра</div>
+								<div class="services__item-text">
+									<p>Лечение тяжелых психических расстройств с подключением медикаментозной помощи</p>
+								</div>
+								<div class="services__item-price">от <span>4 000 р.</span> <span>до 5 500 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Прием врача психотерапевта</div>
+								<div class="services__item-text">
+									<p>Терапия пограничных расстройств психики</p>
+								</div>
+								<div class="services__item-price">от <span>4 000 р.</span> <span>до 5 500 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Прием клинического психолога</div>
+								<div class="services__item-text">
+									<p>Здоровые отношения с собой и окружением</p>
+								</div>
+								<div class="services__item-price">от <span>4 000 р.</span> <span>до 5 500 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Детский психолог</div>
+								<div class="services__item-text">
+									<p>Здоровые отношения ребенка с собой, сверстниками, родителями</p>
+								</div>
+								<div class="services__item-price">от <span>4 000 р.</span> <span>до 5 500 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Семейная психотерапия</div>
+								<div class="services__item-text">
+									<p>Помогаем наладить отношения или достойно расстаться</p>
+								</div>
+								<div class="services__item-price">от <span>5 000 р.</span> <span>до 7 000 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Групповая психотерапия</div>
+								<div class="services__item-text">
+									<p>Возможность работать над своим запросом и узнавать себя в запросах группы</p>
+								</div>
+								<div class="services__item-price">от <span>1 000 р.</span> <span>до 2 000 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Онлайн-консультации</div>
+								<div class="services__item-text">
+									<p>Работа со специалистом из дома</p>
+								</div>
+								<div class="services__item-price">от <span>4 000 р.</span> <span>до 5 500 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Прием детского психиатра</div>
+								<div class="services__item-text">
+									<p>Лечение расстройств и коррекция состояния</p>
+								</div>
+								<div class="services__item-price">от <span>5 000 р.</span> <span>до 5 500 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Психологические игры для организаций</div>
+								<div class="services__item-text">
+									<p>Здоровые отношения в коллективе и мотивация к достижению целей</p>
+								</div>
+								<div class="services__item-price">от <span>20 000 р.</span></div>
+							</div>
+							<div class="services__item">
+								<div class="services__item-title">Помощь психолога для бизнеса</div>
+								<div class="services__item-text">
+									<p>При собеседованиях, деловых встречах, переговорах</p>
+								</div>
+								<div class="services__item-price">от <span>7 000 р.</span> <span>до 9 000 р.</span></div>
+							</div>
+							<div class="services__item services__item2">
+								<button class="services__btn btn btn-beige">
+									<span>Записаться</span>
+								</button>
+								<div class="services__info">Проконсультируем по подбору услуг и запишем на удобное для вас время</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="employee">
+				<div class="container-fluid">
+					<div class="employee__inner">
+						<div class="employee__left">
+							<div class="employee__name">Зироян Лиля Вагановна</div>
+							<div class="employee__text">
+								<p>Генеральный директор клиники “ЛиАр” Клинический и детский психолог</p>
+							</div>
+						</div>
+						<div class="employee__right">
+							<h2>Каждый клиент для нас прежде всего человек, а не пациент</h2>
+							<div class="employee__text">
+								<p>Мы пока не знаем, что Вы чувствуете, но мы здесь, чтобы Вам помочь.</p>
+								<p>Не смотрим на вас отстраненно из-под очков, как это бывает во многих клиниках.</p>
+								<p>Прокладываем дорогу к разуму человека через его душу и сердце.</p>
+							</div>
+							<button class="employee__btn btn btn-beige" data-fancybox data-src="#popup-call">
+								<span>Написать гендиректору</span>
+							</button>
+						</div>
+						<div class="employee__img">
+							<img loading="lazy" src="img/employee-img.webp" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="employee__img2">
+					<img loading="lazy" src="img/employee-img2.webp" alt="">
+				</div>
+				<div class="employee__img3">
+					<img loading="lazy" src="img/employee-img3.webp" alt="">
+				</div>
+				<div class="employee__img4">
+					<img loading="lazy" src="img/employee-img4.webp" alt="">
+				</div>
+			</section>
+			<section class="description">
+				<div class="container-fluid">
+					<div class="description__inner">
+						<div class="description__left">
+							<h2><span class="text_color">Используем только научные методы</span> - без экспериментов, псевдонаук и
+								авторских (придуманных) методик</h2>
+							<div class="description__items">
+								<div class="description__item">
+									<div class="description__item-show">
+										<div class="description__item-title">Когнитивно-поведенческая терапия</div>
+										<div class="description__item-btn">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14 0V27.5" stroke="#CFAA96" stroke-width="3" />
+												<path d="M0 14L27.5 14" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+											<svg width="28" height="4" viewBox="0 0 28 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 2L27.5 2" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+										</div>
+									</div>
+									<div class="description__item-hidden">
+										<div class="description__item-text">
+											<p>Экологичная коррекция  мыслей, убеждений и установок - как следствие изменение поведения и
+												качества жизни.</p>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__item-show">
+										<div class="description__item-title">Телесно-ориентированная терапия</div>
+										<div class="description__item-btn">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14 0V27.5" stroke="#CFAA96" stroke-width="3" />
+												<path d="M0 14L27.5 14" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+											<svg width="28" height="4" viewBox="0 0 28 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 2L27.5 2" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+										</div>
+									</div>
+									<div class="description__item-hidden">
+										<div class="description__item-text">
+											<p>Экологичная коррекция  мыслей, убеждений и установок - как следствие изменение поведения и
+												качества жизни.</p>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__item-show">
+										<div class="description__item-title">Психоанализ </div>
+										<div class="description__item-btn">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14 0V27.5" stroke="#CFAA96" stroke-width="3" />
+												<path d="M0 14L27.5 14" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+											<svg width="28" height="4" viewBox="0 0 28 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 2L27.5 2" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+										</div>
+									</div>
+									<div class="description__item-hidden">
+										<div class="description__item-text">
+											<p>Экологичная коррекция  мыслей, убеждений и установок - как следствие изменение поведения и
+												качества жизни.</p>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__item-show">
+										<div class="description__item-title">Семейная терапия</div>
+										<div class="description__item-btn">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14 0V27.5" stroke="#CFAA96" stroke-width="3" />
+												<path d="M0 14L27.5 14" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+											<svg width="28" height="4" viewBox="0 0 28 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 2L27.5 2" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+										</div>
+									</div>
+									<div class="description__item-hidden">
+										<div class="description__item-text">
+											<p>Экологичная коррекция  мыслей, убеждений и установок - как следствие изменение поведения и
+												качества жизни.</p>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__item-show">
+										<div class="description__item-title">Арт-терапия</div>
+										<div class="description__item-btn">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14 0V27.5" stroke="#CFAA96" stroke-width="3" />
+												<path d="M0 14L27.5 14" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+											<svg width="28" height="4" viewBox="0 0 28 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 2L27.5 2" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+										</div>
+									</div>
+									<div class="description__item-hidden">
+										<div class="description__item-text">
+											<p>Экологичная коррекция  мыслей, убеждений и установок - как следствие изменение поведения и
+												качества жизни.</p>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__item-show">
+										<div class="description__item-title">Клиенто-центрированная психотерапия</div>
+										<div class="description__item-btn">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14 0V27.5" stroke="#CFAA96" stroke-width="3" />
+												<path d="M0 14L27.5 14" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+											<svg width="28" height="4" viewBox="0 0 28 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 2L27.5 2" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+										</div>
+									</div>
+									<div class="description__item-hidden">
+										<div class="description__item-text">
+											<p>Экологичная коррекция  мыслей, убеждений и установок - как следствие изменение поведения и
+												качества жизни.</p>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__item-show">
+										<div class="description__item-title">Гештальт-терапия</div>
+										<div class="description__item-btn">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14 0V27.5" stroke="#CFAA96" stroke-width="3" />
+												<path d="M0 14L27.5 14" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+											<svg width="28" height="4" viewBox="0 0 28 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M0 2L27.5 2" stroke="#CFAA96" stroke-width="3" />
+											</svg>
+										</div>
+									</div>
+									<div class="description__item-hidden">
+										<div class="description__item-text">
+											<p>Экологичная коррекция  мыслей, убеждений и установок - как следствие изменение поведения и
+												качества жизни.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="description__right">
+							<div class="description__img">
+								<img loading="lazy" src="img/description-img.webp" alt="">
+							</div>
+							<div class="description__text">
+								<p>Девятнадцатый век был веком биологии, двадцатый - веком физики, двадцать первый - век психологии.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="advantages2">
+				<div class="container-fluid">
+					<div class="advantages2__inner">
+						<h2>Выбирайте <br> профессиональную помощь,</h2>
+						<p>а не тех, для кого психотерапия - подработка, чтобы закрыть ипотеку быстрее</p>
+						<div class="advantages2__wrap">
+							<div class="advantages2__left">
+								<div class="advantages2__subtitle">Клиника психотерапии “ЛиАр”</div>
+								<ul>
+									<li><strong>Возможность подключения медикаментозной помощи -</strong> медикаменты отпускаются только
+										центрам с лицензией</li>
+									<li><strong>Владеем 20+ научными методиками</strong> - предлагаем ту помощь, которая действительно
+										нужна</li>
+									<li><strong>Направление к специалисту центра,</strong> который решит ваш запрос наиболее эффективно
+									</li>
+									<li>Возможна терапия с одновременной работой <strong>3-5 специалистов</strong></li>
+									<li><strong>Руководство законом синергии:</strong> используем потенциал всех специалистов единого
+										коллектива</li>
+									<li><strong>Юридическая ответственность</strong> за результат</li>
+								</ul>
+							</div>
+							<div class="advantages2__center">
+								<div class="advantages2__group">
+									<div class="advantages2__subtitle">Клиника психотерапии “ЛиАр”</div>
+									<div class="advantages2__subtitle">Специалист-фрилансер</div>
+								</div>
+								<div class="advantages2__img">
+									<img loading="lazy" src="img/advantages2-img.webp" alt="">
+								</div>
+								<div class="advantages2__group2">
+									<button class="advantages2__btn btn btn-beige" data-fancybox data-src="#popup-call">
+										<span>Записаться</span>
+									</button>
+									<div class="advantages2__info">Запишитесь на первый прием в клинику ЛиАр</div>
+								</div>
+							</div>
+							<div class="advantages2__right">
+								<div class="advantages2__subtitle">Специалист-фрилансер</div>
+								<ul>
+									<li><strong>Частный специалист не может купить ряд медикаментов,</strong> потому что у него нет
+										лицензии и системы учета медикаментов</li>
+									<li><strong>Ограниченные компетенции -</strong> предлагает только то, что умеет и практикует</li>
+									<li><strong>Не знает, что другой врач поможет лучше</strong> - не перенаправит, дабы не терять клиента
+									</li>
+									<li><strong>Работа только с одним</strong> специалистом</li>
+									<li>Использует <strong>только свои</strong> возможности</li>
+									<li><strong>Ответственность</strong> за результат <strong>на словах</strong></li>
+								</ul>
+							</div>
+						</div>
+						<div class="advantages2__group2">
+							<button class="advantages2__btn btn btn-beige" data-fancybox data-src="#popup-call">
+								<span>Записаться</span>
+							</button>
+							<div class="advantages2__info">Запишитесь на первый прием в клинику ЛиАр</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="specialists">
+				<div class="container-fluid">
+					<div class="specialists__inner">
+						<div class="specialists__top">
+							<div class="specialists__text">
+								<h2>Специалисты ЛиАр</h2>
+								<p>Без нас до свадьбы не заживет</p>
+							</div>
+							<div class="specialists__slider-nav">
+								<div class="swiper-button-prev">
+									<svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M43 9H1L8.875 1" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M43 9H1L8.875 17" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="swiper-button-next">
+									<svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 9L43 9L35.125 17" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M1 9L43 9L35.125 1" stroke="#333333" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="specialists__slider">
+							<div class="swiper mySwiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide specialist-card">
+										<div class="specialist-card__img">
+											<img loading="lazy" src="img/specialist-img.webp" alt="">
+										</div>
+										<div class="specialist-card__desc">
+											<div class="specialist-card__title">Миронова Яна Николаевна</div>
+											<div class="specialist-card__text">Врач-психотерапевт, психиатр, стаж с 2020</div>
+											<ul>
+												<li>Депрессия</li>
+												<li>Тревога</li>
+												<li>Панические атаки</li>
+												<li>Фобии</li>
+												<li>Депрессия</li>
+												<li>Тревога</li>
+												<li>Панические атаки</li>
+												<li>Фобии</li>
+											</ul>
+											<div class="specialist-card__btn">
+												<span>Еще</span>
+												<span>Скрыть</span>
+												<i>
+													<svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path d="M1 0.999756L11 10.9998L21 0.999756" stroke="#A5755B" stroke-width="2" />
+													</svg>
+												</i>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide specialist-card">
+										<div class="specialist-card__img">
+											<img loading="lazy" src="img/specialist-img.webp" alt="">
+										</div>
+										<div class="specialist-card__desc">
+											<div class="specialist-card__title">Малева Светлана Сергеевна</div>
+											<div class="specialist-card__text">Врач-психиатр, категория высшая, стаж с 2003</div>
+											<ul>
+												<li>Депрессии, в том числе послеродовые</li>
+												<li>Биполярное аффективное расстройство</li>
+												<li>Фобии, страхи, панические атаки, навязчивые мысли и движения</li>
+												<li>Депрессии, в том числе послеродовые</li>
+												<li>Биполярное аффективное расстройство</li>
+												<li>Фобии, страхи, панические атаки, навязчивые мысли и движения</li>
+											</ul>
+											<div class="specialist-card__btn">
+												<span>Еще</span>
+												<span>Скрыть</span>
+												<i>
+													<svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path d="M1 0.999756L11 10.9998L21 0.999756" stroke="#A5755B" stroke-width="2" />
+													</svg>
+												</i>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide specialist-card">
+										<div class="specialist-card__img">
+											<img loading="lazy" src="img/specialist-img.webp" alt="">
+										</div>
+										<div class="specialist-card__desc">
+											<div class="specialist-card__title">Каландия Георгий Юрьевич</div>
+											<div class="specialist-card__text">Психотерапевт КПТ направления, психиатр</div>
+											<ul>
+												<li>Тревожные расстройства (ОКР, фобии, ипохондрия и т.д.)</li>
+												<li>Психосоматические расстройства</li>
+												<li>Депрессия</li>
+												<li>Тревожные расстройства (ОКР, фобии, ипохондрия и т.д.)</li>
+												<li>Психосоматические расстройства</li>
+												<li>Депрессия</li>
+											</ul>
+											<div class="specialist-card__btn">
+												<span>Еще</span>
+												<span>Скрыть</span>
+												<i>
+													<svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path d="M1 0.999756L11 10.9998L21 0.999756" stroke="#A5755B" stroke-width="2" />
+													</svg>
+												</i>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide specialist-card">
+										<div class="specialist-card__img">
+											<img loading="lazy" src="img/specialist-img.webp" alt="">
+										</div>
+										<div class="specialist-card__desc">
+											<div class="specialist-card__title">Миронова Яна Николаевна</div>
+											<div class="specialist-card__text">Врач-психотерапевт, психиатр, стаж с 2020</div>
+											<ul>
+												<li>Депрессия</li>
+												<li>Тревога</li>
+												<li>Панические атаки</li>
+												<li>Фобии</li>
+												<li>Депрессия</li>
+												<li>Тревога</li>
+												<li>Панические атаки</li>
+												<li>Фобии</li>
+											</ul>
+											<div class="specialist-card__btn">
+												<span>Еще</span>
+												<span>Скрыть</span>
+												<i>
+													<svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path d="M1 0.999756L11 10.9998L21 0.999756" stroke="#A5755B" stroke-width="2" />
+													</svg>
+												</i>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide specialist-card">
+										<div class="specialist-card__img">
+											<img loading="lazy" src="img/specialist-img.webp" alt="">
+										</div>
+										<div class="specialist-card__desc">
+											<div class="specialist-card__title">Малева Светлана Сергеевна</div>
+											<div class="specialist-card__text">Врач-психиатр, категория высшая, стаж с 2003</div>
+											<ul>
+												<li>Депрессии, в том числе послеродовые</li>
+												<li>Биполярное аффективное расстройство</li>
+												<li>Фобии, страхи, панические атаки, навязчивые мысли и движения</li>
+												<li>Депрессии, в том числе послеродовые</li>
+												<li>Биполярное аффективное расстройство</li>
+												<li>Фобии, страхи, панические атаки, навязчивые мысли и движения</li>
+											</ul>
+											<div class="specialist-card__btn">
+												<span>Еще</span>
+												<span>Скрыть</span>
+												<i>
+													<svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path d="M1 0.999756L11 10.9998L21 0.999756" stroke="#A5755B" stroke-width="2" />
+													</svg>
+												</i>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide specialist-card">
+										<div class="specialist-card__img">
+											<img loading="lazy" src="img/specialist-img.webp" alt="">
+										</div>
+										<div class="specialist-card__desc">
+											<div class="specialist-card__title">Каландия Георгий Юрьевич</div>
+											<div class="specialist-card__text">Психотерапевт КПТ направления, психиатр</div>
+											<ul>
+												<li>Тревожные расстройства (ОКР, фобии, ипохондрия и т.д.)</li>
+												<li>Психосоматические расстройства</li>
+												<li>Депрессия</li>
+												<li>Тревожные расстройства (ОКР, фобии, ипохондрия и т.д.)</li>
+												<li>Психосоматические расстройства</li>
+												<li>Депрессия</li>
+											</ul>
+											<div class="specialist-card__btn">
+												<span>Еще</span>
+												<span>Скрыть</span>
+												<i>
+													<svg width="22" height="13" viewBox="0 0 22 13" fill="none"
+														xmlns="http://www.w3.org/2000/svg">
+														<path d="M1 0.999756L11 10.9998L21 0.999756" stroke="#A5755B" stroke-width="2" />
+													</svg>
+												</i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="connection">
+				<div class="container-fluid">
+					<div class="connection__inner">
+						<div class="connection__left">
+							<h2>Запишитесь на первый прием к специалисту</h2>
+							<p>Чем раньше вы примите профессиональную помощь в решении своего вопроса, тем раньше начнете его решать.
+							</p>
+						</div>
+						<div class="connection__right">
+							<div class="form-wrap">
+								<div class="form-head">
+									<div class="form-title">Оставьте заявку</div>
+									<div class="form-subtitle">Специалист Лиар перезвонит в ближайшее время</div>
+								</div>
+								<form method="POST" action="" class="form_block">
+									<div class="form-field form-group">
+										<input type="text" name="name1" placeholder="Ваше имя" class="form-control" />
+									</div>
+									<div class="form-field form-group">
+										<input type="tel" name="phone" placeholder="Ваш телефон" class="form-control required  inp" />
+									</div>
+									<button type="submit" name="send" class="form-btn btn btn-beige">
+										<span>Получить консультацию</span>
+									</button>
+									<div class="agreement-check">
+										<input class="agreement" type="checkbox" checked="checked" name="Agreement">
+										<label class="agreement-label">Подтверждаю свои данные и даю своё согласие на их обработку</label>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+    <div class="footer-top">
+        <div class="container-fluid">
+            <div class="footer-top__inner">
+                <div class="footer-top__left">
+                    <a class="footer-top__logo" href="">
+                        <img src="img/logo2.svg" alt="">
+                    </a>
+                    <div class="footer-top__text">
+                        <p>Медицинская клиника психологии, психотерапии, психиатрии</p>
+                        <p>Лицензия <br> №ХХХХХХХ</p>
+                    </div>
+                </div>
+                <div class="footer-top__right">
+                    <div class="footer-top__text2">
+                        <p>Лицензия <br> №ХХХХХХХ</p>
+                        <p>
+                            <span>Адрес</span>
+                            г. Воронеж, Московский <br> проспект, 13/2
+                        </p>
+                        <p>
+                            <span>Режим работы</span>
+                            с 9:00 до 22:00
+                        </p>
+                    </div>
+                    <div class="footer-top__wrap">
+                        <div class="footer-top__socials">
+                            <div class="footer-top__socials-text">Соцсети</div>
+                            <div class="footer-top__socials-wrap">
+                                <a class="footer-top__social" href="">
+                                    <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.79716 10.1324C8.18821 10.6791 7.8154 11.4411 7.75736 12.2574L7.59236 14.5782C7.55163 15.151 8.0337 15.5954 8.44118 15.1907C9.7251 13.9637 11.7042 13.8342 13.137 14.8835L15.2588 16.4374C16.1022 16.9074 16.6964 16.6599 16.9239 15.6615L19.9422 1.51845C19.9423 1.51808 19.9424 1.51773 19.9427 1.51746C19.943 1.51719 19.9432 1.51683 19.9433 1.51645C20.2104 0.270191 19.4922 -0.217119 18.6706 0.0886734L0.928504 6.88134C-0.282359 7.35135 -0.264025 8.02637 0.722666 8.33221L0.875453 8.37973C3.65798 9.24521 6.67962 8.85392 9.1499 7.3082L15.7947 3.15041C16.2905 2.82207 16.7414 3.00374 16.3705 3.33208L8.79716 10.1324Z" fill="#D2B99B"/>
+                                    </svg>
+                                </a>
+                                <a class="footer-top__social" href="">
+                                    <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.9954 0H6.99708C3.14869 0 0 3.14869 0 6.99708V9.99584C0 11.5494 0.521698 13.0285 1.42685 14.2233C2.66175 15.8534 3.99833 17.6218 3.99833 19.6668C3.99833 19.9667 4.37318 20.1166 4.57309 19.8917L4.98037 19.4844C6.57566 17.8891 8.73934 16.9929 10.9954 16.9929C14.8438 16.9929 17.9925 13.8442 17.9925 9.99584V6.99708C17.9925 3.14869 14.8438 0 10.9954 0ZM13.6193 13.1195L12.5948 14.1191C11.5202 15.1687 8.74636 13.9692 6.29738 11.4702C3.8484 8.97126 2.77384 6.17243 3.79842 5.12287L4.798 4.12328C5.17284 3.74844 5.79758 3.77343 6.22241 4.14827L7.6718 5.64765C8.19658 6.17243 7.97168 7.07205 7.29696 7.27197C6.82216 7.42191 6.49729 7.94669 6.64723 8.42149C6.89713 9.52103 8.29654 10.9205 9.34611 11.1953C9.82091 11.2953 10.3457 11.0454 10.5206 10.5706C10.7455 9.89588 11.6451 9.69596 12.1449 10.2207L13.5943 11.7201C13.9942 12.07 13.9942 12.6947 13.6193 13.1195ZM9.89588 4.74802C9.79592 4.74802 9.69596 4.74802 9.596 4.77301C9.42107 4.798 9.24615 4.64806 9.22116 4.47314C9.19617 4.29821 9.34611 4.12328 9.52103 4.09829C9.64598 4.0733 9.77093 4.0733 9.89588 4.0733C11.7201 4.0733 13.2195 5.57268 13.2195 7.39692C13.2195 7.52187 13.2195 7.64681 13.1945 7.77176C13.1695 7.94669 12.9946 8.09663 12.8197 8.07164C12.7449 8.06096 12.6747 8.02291 12.6208 7.96918C12.4788 7.82766 12.5448 7.59741 12.5448 7.39692C12.5698 5.94752 11.3703 4.74802 9.89588 4.74802ZM11.895 7.42191C11.895 7.59684 11.7451 7.74677 11.5702 7.74677C11.3953 7.74677 11.2453 7.59684 11.2453 7.42191C11.2453 6.69721 10.6456 6.09746 9.92087 6.09746C9.74594 6.09746 9.596 5.94752 9.596 5.77259C9.596 5.59767 9.74594 5.44773 9.92087 5.44773C10.9954 5.42274 11.895 6.32237 11.895 7.42191ZM14.444 8.49646C14.394 8.67139 14.2191 8.79634 14.0192 8.74636C13.8442 8.69638 13.7443 8.52145 13.7943 8.34652C13.8692 8.04665 13.8942 7.74677 13.8942 7.42191C13.8942 5.22282 12.095 3.42357 9.89588 3.42357C9.79592 3.42357 9.69596 3.42357 9.596 3.42357C9.42107 3.42357 9.24615 3.29863 9.24615 3.1237C9.24615 2.94877 9.3711 2.77384 9.54602 2.77384C9.67097 2.77384 9.79592 2.74885 9.89588 2.74885C12.4698 2.74885 14.5689 4.84798 14.5689 7.42191C14.5689 7.77176 14.519 8.14661 14.444 8.49646Z" fill="#D2B99B"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer-top__group">
+                            <div class="footer-top__phone">
+                                <span>Телефон</span>
+                                <a href="tel:+70000000000">+7(000)000-00-00</a>
+                            </div>
+                            <button class="footer-top__btn btn" data-fancybox data-src="#popup-call">
+                                <span>Заказать звонок</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container-fluid">
+            <div class="footer-bottom__inner">
+                <a href="" class="b2b">
+                    <img src="img/b2b.webp" alt="">
+                </a>
+                <div class="footer-bottom__text">
+                    <p>©  «Лиар», 2024,</p>
+                    <p>ИНН 000000000,</p>
+                    <p>КПП 000000000,</p>
+                    <p>ОГРН 000000000 /</p>
+                    <p>Предложение не является публичной офертой /</p>
+                    <p><a href="">Политика конфиденциальности</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+		<div class="popups">
+			<div id="popup-call" class="popup">
+				<div class="form-wrap">
+					<div class="form-head">
+						Обратная связь
+					</div>
+					<form method="POST" action="" class="form_block">
+						<div class="form-field form-group">
+							<input type="text" name="name1" placeholder="Ваше имя" class="form-control" />
+						</div>
+						<div class="form-field form-group">
+							<input type="tel" name="phone" placeholder="Ваш телефон" class="form-control required  inp" />
+						</div>
+						<button type="submit" name="send" class="form-btn btn btn-beige">
+							<span>Получить консультацию</span>
+						</button>
+						<div class="agreement-check">
+							<input class="agreement" type="checkbox" checked="checked" name="Agreement">
+							<label class="agreement-label">Подтверждаю свои данные и даю своё согласие на их обработку</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://degorov.ru/1base/wp-content/themes/Goodini/assets/js/base.min.js"></script>
+<script src="https://degorov.ru/1base/wp-content/themes/Goodini/assets/js/validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.js"></script>
+<script src="js/main.min.js"></script>
+
+	<script>
+		const displayWindowSize = () => {
+
+			const StartWindowHeight = window.innerHeight;
+			const windowWidth = window.innerWidth;
+			const windowHeight = window.innerHeight;
+
+			const ratio_default = 1.98;
+			const ratio_current = windowWidth / windowHeight;
+			const coef_ratio = (ratio_default / ratio_current).toFixed(2);
+			const coef_height = (Math.max(windowHeight / 775, 0.78)).toFixed(2);
+			const coef_width = (Math.min(coef_ratio * 1.07, 0.95)).toFixed(2);
+
+			if ((StartWindowHeight !== windowHeight) && (navigator.platform !== 'iPhone' && navigator.platform !== 'iPad')) {
+				document.body.classList.add("keyboard-on");
+			} else {
+				document.body.classList.remove("keyboard-on");
+			}
+
+			if (coef_ratio < 1) {
+				document.documentElement.style.setProperty('--coef_r', coef_ratio);
+			}
+			if (coef_height < 1) {
+				document.documentElement.style.setProperty('--coef_h', coef_height);
+			}
+			if (coef_width < 1) {
+				document.documentElement.style.setProperty('--coef_w', coef_width);
+			}
+		};
+
+		window.addEventListener("resize", displayWindowSize);
+
+		// Инициализация функции отображения размера окна
+		displayWindowSize();
+	</script>
+</body>
+
+</html>
